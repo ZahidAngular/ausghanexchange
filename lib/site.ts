@@ -90,7 +90,7 @@ export const serviceAreaFlags = [
 export const faqs = [
   {
     q: "What currencies do you exchange?",
-    a: "We exchange a wide range of major and exotic currencies, including USD, AUD, EUR, GBP, and AFN. Please contact us to confirm availability for your specific currency needs.",
+    a: "We exchange a wide range of major and exotic currencies, including USD, AUD, EUR, and GBP. Please contact us to confirm availability for your specific currency needs.",
   },
   {
     q: "Do I need to bring any ID for currency exchange?",
@@ -128,8 +128,7 @@ export const reviews = [
 // Exchange rates published in the site's "Hello world!" post (23 July 2025)
 export const exchangeRates = [
   { flag: "🇵🇰", flagImg: img("flags/pk.png"), country: "Pakistan", code: "PKR", rate: "187" },
-  { flag: "🇦🇫", flagImg: img("flags/af.png"), country: "Afghanistan", code: "ANF", rate: "44.5" },
-  { flag: "🇮🇷", flagImg: img("flags/ir.png"), country: "Iran", code: "IRR", rate: "41000" },
+  // Hidden: Afghanistan (ANF 44.5) and Iran (IRR 41000) rates
   { flag: "🇦🇪", flagImg: img("flags/ae.png"), country: "UAE", code: "AED", rate: "2.43" },
   { flag: "🇦🇺", flagImg: img("flags/au.png"), country: "Australia", code: "AUD", rate: "1.00" },
   { flag: "🇺🇸", flagImg: img("flags/us.png"), country: "United States", code: "USD", rate: "0.66" },
