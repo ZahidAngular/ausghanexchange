@@ -128,7 +128,6 @@ export const reviews = [
 // Exchange rates published in the site's "Hello world!" post (23 July 2025)
 export const exchangeRates = [
   { flag: "🇵🇰", flagImg: img("flags/pk.png"), country: "Pakistan", code: "PKR", rate: "187" },
-  // Hidden: Afghanistan (ANF 44.5) and Iran (IRR 41000) rates
   { flag: "🇦🇪", flagImg: img("flags/ae.png"), country: "UAE", code: "AED", rate: "2.43" },
   { flag: "🇦🇺", flagImg: img("flags/au.png"), country: "Australia", code: "AUD", rate: "1.00" },
   { flag: "🇺🇸", flagImg: img("flags/us.png"), country: "United States", code: "USD", rate: "0.66" },
