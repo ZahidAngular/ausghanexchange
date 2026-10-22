@@ -36,7 +36,7 @@ const trustItems = [
 const homeStats: { to?: number; suffix?: string; value?: string; label: string; sub: string }[] = [
   { to: 10, suffix: "k+", label: "Active Users", sub: "Ausghan Exchange" },
   { to: 30, suffix: "K+", label: "Transactions", sub: "Ausghan Exchange" },
-  { to: 2, label: "Branches", sub: "Adelaide & Melbourne" },
+  { to: 1, label: "Branch", sub: "Adelaide" },
   { value: "7", label: "Days", sub: "Monday - Sunday 10AM - 6PM" },
 ]
 

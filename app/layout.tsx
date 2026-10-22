@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     template: "%s – Ausghan",
   },
   description:
-    "At Ausghan Exchange, we make it easy to send money to loved ones overseas and exchange foreign currency with confidence. AUSTRAC registered, with branches in Adelaide and Melbourne.",
+    "At Ausghan Exchange, we make it easy to send money to loved ones overseas and exchange foreign currency with confidence. AUSTRAC registered, with a branch in Adelaide.",
   icons: { icon: "/images/AE-LOGO-1-outline-HOR-HR-150x150.webp" },
 };
 
