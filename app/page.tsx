@@ -71,7 +71,7 @@ export default function Home() {
   return (
     <>
       {/* ───────────── Hero ───────────── */}
-      <section className="relative overflow-hidden bg-ink pt-28 pb-20 text-white lg:pt-36 lg:pb-28">
+      <section className="relative overflow-hidden bg-ink pt-28 pb-28 text-white lg:pt-36 lg:pb-40">
         <Image src={img("Texture12-HPJPBQ-test.png")} alt="" fill priority sizes="100vw" className="object-cover opacity-[0.06] mix-blend-screen" />
         <div className="bg-grid-dark pointer-events-none absolute inset-0 [mask-image:radial-gradient(ellipse_at_top,black_30%,transparent_80%)]" />
         <Image src={img("Blur1-coinage.png")} alt="" width={564} height={548} priority className="pointer-events-none absolute -left-48 top-10 w-[620px] opacity-50" />
@@ -80,7 +80,7 @@ export default function Home() {
 
         <div className="container-x relative grid gap-12 lg:grid-cols-12 lg:gap-10">
           {/* Left: headline + photo */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 lg:flex lg:flex-col">
             <Reveal>
               <p className="mb-6 inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.16em] text-mint backdrop-blur">
                 <span className="relative flex h-2 w-2">
@@ -96,8 +96,9 @@ export default function Home() {
               </h1>
             </Reveal>
 
-            <Reveal delay={0.1} className="relative mt-10">
-              <div className="relative aspect-[16/11] overflow-hidden rounded-[2rem] ring-1 ring-white/10 shadow-[0_40px_80px_-30px_rgb(0_0_0/0.6)]">
+            {/* On desktop the photo stretches so its bottom lines up with the converter card */}
+            <Reveal delay={0.1} className="relative mt-10 lg:flex lg:flex-1 lg:flex-col">
+              <div className="relative aspect-[16/11] overflow-hidden lg:aspect-auto lg:min-h-[300px] lg:flex-1 rounded-[2rem] ring-1 ring-white/10 shadow-[0_40px_80px_-30px_rgb(0_0_0/0.6)]">
                 <Image
                   src={img("WhatsApp-Image-2025-08-22-at-17.23.18_260da38b.jpg")}
                   alt="Family celebrating together"
@@ -132,6 +133,7 @@ export default function Home() {
                 </div>
               </div>
             </Reveal>
+            {/* App download box: hidden for now
             {legacy && (
               <Reveal delay={0.2} className="mt-8 flex flex-wrap items-center justify-between gap-4 rounded-2xl border border-white/10 bg-white/[0.04] p-5">
                 <p className="font-display text-sm font-semibold text-white/80">Download The Coinage Mobile App</p>
@@ -145,6 +147,7 @@ export default function Home() {
                 </div>
               </Reveal>
             )}
+            */}
           </div>
 
           {/* Right: intro + converter */}
@@ -264,6 +267,7 @@ export default function Home() {
       </section>
 
       {/* ───────────── Trusted by ───────────── */}
+      {/* Partner logo strip: hidden for now
       {legacy && (
       <section className="border-b border-line py-16">
         <div className="container-x">
@@ -285,6 +289,7 @@ export default function Home() {
         </div>
       </section>
       )}
+      */}
 
       {/* ───────────── Features ───────────── */}
       <section className="py-14 lg:py-20">

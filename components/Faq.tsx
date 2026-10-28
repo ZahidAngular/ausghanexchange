@@ -14,7 +14,9 @@ export function Faq() {
       <div className="container-x grid gap-12 lg:grid-cols-12">
         <Reveal className="lg:col-span-5">
           <Headline eyebrow="Have Questions?" before="Frequently" highlight="asked" after="questions.">
+            {/* Subtitle: hidden for now
             <p>Discover how our e-wallets and payment gateways optimize transactions.</p>
+            */}
           </Headline>
         </Reveal>
         <div className="space-y-3 lg:col-span-7">
