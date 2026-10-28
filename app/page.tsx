@@ -292,7 +292,7 @@ export default function Home() {
       */}
 
       {/* ───────────── Features ───────────── */}
-      <section className="py-14 lg:py-20">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x">
           <Reveal>
             <Headline eyebrow="Features" before="Seamless" highlight="payment" after="solutions." align="center">
@@ -365,7 +365,7 @@ export default function Home() {
       </section>
 
       {/* ───────────── Services ───────────── */}
-      <section className="bg-paper py-14 lg:py-20">
+      <section className="py-14 lg:py-20">
         <div className="container-x grid items-center gap-10 lg:grid-cols-2">
           <Reveal from="left" className="relative">
             <div className="relative mx-auto aspect-square max-w-[520px] overflow-hidden rounded-[2.5rem] bg-gradient-to-br from-ink to-ink-3">
@@ -413,7 +413,7 @@ export default function Home() {
       </section>
 
       {/* ───────────── Reviews ───────────── */}
-      <section className="py-14 lg:py-20">
+      <section className="bg-paper py-14 lg:py-20">
         <div className="container-x">
           <div className="flex flex-col items-start justify-between gap-8 lg:flex-row lg:items-end">
             <Reveal className="max-w-2xl">
