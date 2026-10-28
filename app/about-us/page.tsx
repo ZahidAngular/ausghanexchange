@@ -58,7 +58,7 @@ export default function AboutPage() {
                 <p className="font-display text-xl font-semibold text-ink">Trusted. Compliant. Transparent.</p>
                 <p className="mt-4">
                   Ausghan Exchange is a leading provider of remittance and foreign currency exchange services in Australia. With
-                  offices in Melbourne and Adelaide, we connect individuals and businesses to global markets while maintaining
+                  an office in Adelaide, we connect individuals and businesses to global markets while maintaining
                   the highest standards of compliance, transparency, and operational integrity.
                 </p>
               </Headline>

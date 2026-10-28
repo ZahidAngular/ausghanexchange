@@ -8,7 +8,7 @@ export const img = (name: string) => `/images/${name}`;
  */
 export const features = {
   // Melbourne (Dandenong) branch: hidden in the old footer, Branches and Contact pages.
-  melbourneBranch: true,
+  melbourneBranch: false,
   // Old template blocks hidden on the live site: "Download The Coinage Mobile App" badges, destination fee
   // amounts, partner logo strip, Wallet App / Statistic phones, home "Why Choose Us" with stats, Blog & News,
   // app-store ratings, the Contact page support blurb and the Get a Quote page's extra contact form.
